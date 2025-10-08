@@ -1,4 +1,4 @@
-package lesson_2_hw;
+package lesson_2_hw1;
 
 public class MyHomeWork1 {
 
