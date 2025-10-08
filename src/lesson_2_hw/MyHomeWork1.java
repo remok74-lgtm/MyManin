@@ -1,5 +1,5 @@
 package lesson_2_hw;
-public class MyHomeWork2 {
+public class MyHomeWork1 {
     public static void main(String[] args) {
         setPersonData();
     }
