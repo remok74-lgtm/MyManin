@@ -1,30 +1,17 @@
 package lesson_2_hw;
+
 public class MyHomeWork1 {
+
     public static void main(String[] args) {
-        setPersonData();
+        setSumValue();
     }
 
-    public static void setPersonData() {
-        String name;
-        String surname;
-        int age;
-        float weight;
-        boolean isMaried;
-
-        name = "Ilya";
-        surname = "Mescheryakov";
-        age = 39;
-        weight = 93.7f;
-        isMaried = true;
-        System.out.println("Name: " + name);
-        System.out.println("Surname: " + surname);
-        System.out.println("Age: " + age);
-        System.out.println("Weight: " + weight);
-        System.out.println("Are you Maried? " + isMaried);
+    private static void setSumValue() {
+        int n = 24;
+        int a = 2;
+        int b = 4;
+        int ab = (a + b);
+        System.out.println("n= (2 + 4): " +ab);
     }
 
 }
-
-
-
-
