@@ -1,17 +1,14 @@
 package lesson_2_hw1;
 
 public class MyHomeWork1 {
-
     public static void main(String[] args) {
-        setSumValue();
+        setCalculateValue();
     }
 
-    private static void setSumValue() {
-        int n =46;
-        double a = 4;
-        double b = 6;
-        double x = (a + b);
-        System.out.println("n= 24 = (2 + 4): " +x);
+    private static void setCalculateValue() {
+        int b = 28;
+        double c = 15;
+        double a = 4 * (b + c - 1) / 2;
+        System.out.println("a= 4  *(28 + 15 -1) / 2 : " + a);
     }
-
 }
